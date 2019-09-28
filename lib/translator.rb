@@ -3,7 +3,7 @@ require 'yaml'
 
 
 def load_library(file_path)
-  file = YAML.load_file(file_path)
+  file = YAML.load(file_path)
   
 end
 
